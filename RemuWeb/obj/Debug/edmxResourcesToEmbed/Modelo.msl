@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RemuWebModeloStoreContainer" CdmEntityContainer="RemuWebEntities">
+    <EntitySetMapping Name="afp">
+      <EntityTypeMapping TypeName="RemuWebModelo.afp">
+        <MappingFragment StoreEntitySet="afp">
+          <ScalarProperty Name="tipoAfp" ColumnName="tipoAfp" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="asignacionFamiliar">
+      <EntityTypeMapping TypeName="RemuWebModelo.asignacionFamiliar">
+        <MappingFragment StoreEntitySet="asignacionFamiliar">
+          <ScalarProperty Name="montoPagar" ColumnName="montoPagar" />
+          <ScalarProperty Name="hasta" ColumnName="hasta" />
+          <ScalarProperty Name="desde" ColumnName="desde" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bonoProporcional">
+      <EntityTypeMapping TypeName="RemuWebModelo.bonoProporcional">
+        <MappingFragment StoreEntitySet="bonoProporcional">
+          <ScalarProperty Name="porcientoPago" ColumnName="porcientoPago" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bonoProporcionalPagados">
+      <EntityTypeMapping TypeName="RemuWebModelo.bonoProporcionalPagados">
+        <MappingFragment StoreEntitySet="bonoProporcionalPagados">
+          <ScalarProperty Name="idPeriodo" ColumnName="idPeriodo" />
+          <ScalarProperty Name="rutTrabajador" ColumnName="rutTrabajador" />
+          <ScalarProperty Name="porcientoPago" ColumnName="porcientoPago" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bonosImponibles">
+      <EntityTypeMapping TypeName="RemuWebModelo.bonosImponibles">
+        <MappingFragment StoreEntitySet="bonosImponibles">
+          <ScalarProperty Name="tipoBono" ColumnName="tipoBono" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bonosImponiblesPagados">
+      <EntityTypeMapping TypeName="RemuWebModelo.bonosImponiblesPagados">
+        <MappingFragment StoreEntitySet="bonosImponiblesPagados">
+          <ScalarProperty Name="idPeriodo" ColumnName="idPeriodo" />
+          <ScalarProperty Name="rutTrabajador" ColumnName="rutTrabajador" />
+          <ScalarProperty Name="idBonosImponibles" ColumnName="idBonosImponibles" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bonosNoImponibles">
+      <EntityTypeMapping TypeName="RemuWebModelo.bonosNoImponibles">
+        <MappingFragment StoreEntitySet="bonosNoImponibles">
+          <ScalarProperty Name="tipoBono" ColumnName="tipoBono" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="bonosNoImponiblesPagados">
+      <EntityTypeMapping TypeName="RemuWebModelo.bonosNoImponiblesPagados">
+        <MappingFragment StoreEntitySet="bonosNoImponiblesPagados">
+          <ScalarProperty Name="idPeriodo" ColumnName="idPeriodo" />
+          <ScalarProperty Name="rutTrabajador" ColumnName="rutTrabajador" />
+          <ScalarProperty Name="idBonosNoImponiblesPagados" ColumnName="idBonosNoImponiblesPagados" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cargasFamiliar">
+      <EntityTypeMapping TypeName="RemuWebModelo.cargasFamiliar">
+        <MappingFragment StoreEntitySet="cargasFamiliar">
+          <ScalarProperty Name="rutTrabajador" ColumnName="rutTrabajador" />
+          <ScalarProperty Name="apellidoM" ColumnName="apellidoM" />
+          <ScalarProperty Name="apellidoP" ColumnName="apellidoP" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="rutCarga" ColumnName="rutCarga" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cargasFamiliaresPagadas">
+      <EntityTypeMapping TypeName="RemuWebModelo.cargasFamiliaresPagadas">
+        <MappingFragment StoreEntitySet="cargasFamiliaresPagadas">
+          <ScalarProperty Name="idPeriodo" ColumnName="idPeriodo" />
+          <ScalarProperty Name="rutTrabajador" ColumnName="rutTrabajador" />
+          <ScalarProperty Name="pago" ColumnName="pago" />
+          <ScalarProperty Name="totalCargas" ColumnName="totalCargas" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cargos">
+      <EntityTypeMapping TypeName="RemuWebModelo.cargos">
+        <MappingFragment StoreEntitySet="cargos">
+          <ScalarProperty Name="cargo" ColumnName="cargo" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ciudades">
+      <EntityTypeMapping TypeName="RemuWebModelo.ciudades">
+        <MappingFragment StoreEntitySet="ciudades">
+          <ScalarProperty Name="ciudad" ColumnName="ciudad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="comunas">
+      <EntityTypeMapping TypeName="RemuWebModelo.comunas">
+        <MappingFragment StoreEntitySet="comunas">
+          <ScalarProperty Name="comuna" ColumnName="comuna" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="departamentos">
+      <EntityTypeMapping TypeName="RemuWebModelo.departamentos">
+        <MappingFragment StoreEntitySet="departamentos">
+          <ScalarProperty Name="departamento" ColumnName="departamento" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="descuentoSindicato">
+      <EntityTypeMapping TypeName="RemuWebModelo.descuentoSindicato">
+        <MappingFragment StoreEntitySet="descuentoSindicato">
+          <ScalarProperty Name="rutTrabajador" ColumnName="rutTrabajador" />
+          <ScalarProperty Name="porcientoDescuento" ColumnName="porcientoDescuento" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="descuentoSindicatoPagados">
+      <EntityTypeMapping TypeName="RemuWebModelo.descuentoSindicatoPagados">
+        <MappingFragment StoreEntitySet="descuentoSindicatoPagados">
+          <ScalarProperty Name="idPeriodo" ColumnName="idPeriodo" />
+          <ScalarProperty Name="rutTrabajador" ColumnName="rutTrabajador" />
+          <ScalarProperty Name="porcientoDescuento" ColumnName="porcientoDescuento" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="diasNoTrabajados">
+      <EntityTypeMapping TypeName="RemuWebModelo.diasNoTrabajados">
+        <MappingFragment StoreEntitySet="diasNoTrabajados">
+          <ScalarProperty Name="rutTrabajador" ColumnName="rutTrabajador" />
+          <ScalarProperty Name="motivo" ColumnName="motivo" />
+          <ScalarProperty Name="hasta" ColumnName="hasta" />
+          <ScalarProperty Name="desde" ColumnName="desde" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="diasTrabajados">
+      <EntityTypeMapping TypeName="RemuWebModelo.diasTrabajados">
+        <MappingFragment StoreEntitySet="diasTrabajados">
+          <ScalarProperty Name="idPeriodo" ColumnName="idPeriodo" />
+          <ScalarProperty Name="rutTrabajador" ColumnName="rutTrabajador" />
+          <ScalarProperty Name="cantidadDias" ColumnName="cantidadDias" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="domicilios">
+      <EntityTypeMapping TypeName="RemuWebModelo.domicilios">
+        <MappingFragment StoreEntitySet="domicilios">
+          <ScalarProperty Name="idComuna" ColumnName="idComuna" />
+          <ScalarProperty Name="idCiudad" ColumnName="idCiudad" />
+          <ScalarProperty Name="numero" ColumnName="numero" />
+          <ScalarProperty Name="calle" ColumnName="calle" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="rutTrabajador" ColumnName="rutTrabajador" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="empleador">
+      <EntityTypeMapping TypeName="RemuWebModelo.empleador">
+        <MappingFragment StoreEntitySet="empleador">
+          <ScalarProperty Name="giro" ColumnName="giro" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="rutEmpleador" ColumnName="rutEmpleador" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="estadoTrabajador">
+      <EntityTypeMapping TypeName="RemuWebModelo.estadoTrabajador">
+        <MappingFragment StoreEntitySet="estadoTrabajador">
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="gratificacion">
+      <EntityTypeMapping TypeName="RemuWebModelo.gratificacion">
+        <MappingFragment StoreEntitySet="gratificacion">
+          <ScalarProperty Name="porcientoPago" ColumnName="porcientoPago" />
+          <ScalarProperty Name="tope" ColumnName="tope" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="gratificacionPagadas">
+      <EntityTypeMapping TypeName="RemuWebModelo.gratificacionPagadas">
+        <MappingFragment StoreEntitySet="gratificacionPagadas">
+          <ScalarProperty Name="idPeriodo" ColumnName="idPeriodo" />
+          <ScalarProperty Name="rutTrabajador" ColumnName="rutTrabajador" />
+          <ScalarProperty Name="porcientoPago" ColumnName="porcientoPago" />
+          <ScalarProperty Name="tope" ColumnName="tope" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="horasExtras">
+      <EntityTypeMapping TypeName="RemuWebModelo.horasExtras">
+        <MappingFragment StoreEntitySet="horasExtras">
+          <ScalarProperty Name="idPeriodo" ColumnName="idPeriodo" />
+          <ScalarProperty Name="rutTrabajador" ColumnName="rutTrabajador" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="tipoHora" ColumnName="tipoHora" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="impuestoRenta">
+      <EntityTypeMapping TypeName="RemuWebModelo.impuestoRenta">
+        <MappingFragment StoreEntitySet="impuestoRenta">
+          <ScalarProperty Name="impuestoMaximo" ColumnName="impuestoMaximo" />
+          <ScalarProperty Name="cantidadRebajar" ColumnName="cantidadRebajar" />
+          <ScalarProperty Name="factor" ColumnName="factor" />
+          <ScalarProperty Name="hasta" ColumnName="hasta" />
+          <ScalarProperty Name="desde" ColumnName="desde" />
+          <ScalarProperty Name="periodo" ColumnName="periodo" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="impuestoRentaPagados">
+      <EntityTypeMapping TypeName="RemuWebModelo.impuestoRentaPagados">
+        <MappingFragment StoreEntitySet="impuestoRentaPagados">
+          <ScalarProperty Name="idPeriodo" ColumnName="idPeriodo" />
+          <ScalarProperty Name="rutTrabajador" ColumnName="rutTrabajador" />
+          <ScalarProperty Name="impuestoMaximo" ColumnName="impuestoMaximo" />
+          <ScalarProperty Name="cantidadRebajar" ColumnName="cantidadRebajar" />
+          <ScalarProperty Name="factor" ColumnName="factor" />
+          <ScalarProperty Name="hasta" ColumnName="hasta" />
+          <ScalarProperty Name="desde" ColumnName="desde" />
+          <ScalarProperty Name="periodo" ColumnName="periodo" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="licenciasMedicas">
+      <EntityTypeMapping TypeName="RemuWebModelo.licenciasMedicas">
+        <MappingFragment StoreEntitySet="licenciasMedicas">
+          <ScalarProperty Name="rutTrabajador" ColumnName="rutTrabajador" />
+          <ScalarProperty Name="hasta" ColumnName="hasta" />
+          <ScalarProperty Name="desde" ColumnName="desde" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="modalidadesPago">
+      <EntityTypeMapping TypeName="RemuWebModelo.modalidadesPago">
+        <MappingFragment StoreEntitySet="modalidadesPago">
+          <ScalarProperty Name="modalidad" ColumnName="modalidad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="nacionalidad">
+      <EntityTypeMapping TypeName="RemuWebModelo.nacionalidad">
+        <MappingFragment StoreEntitySet="nacionalidad">
+          <ScalarProperty Name="nacionalidad1" ColumnName="nacionalidad" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="otrosDescuentos">
+      <EntityTypeMapping TypeName="RemuWebModelo.otrosDescuentos">
+        <MappingFragment StoreEntitySet="otrosDescuentos">
+          <ScalarProperty Name="idPeriodo" ColumnName="idPeriodo" />
+          <ScalarProperty Name="cuotasTotales" ColumnName="cuotasTotales" />
+          <ScalarProperty Name="numeroCuota" ColumnName="numeroCuota" />
+          <ScalarProperty Name="rutTrabajador" ColumnName="rutTrabajador" />
+          <ScalarProperty Name="tipoDescuento" ColumnName="tipoDescuento" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="periodos">
+      <EntityTypeMapping TypeName="RemuWebModelo.periodos">
+        <MappingFragment StoreEntitySet="periodos">
+          <ScalarProperty Name="periodo" ColumnName="periodo" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="planesAfp">
+      <EntityTypeMapping TypeName="RemuWebModelo.planesAfp">
+        <MappingFragment StoreEntitySet="planesAfp">
+          <ScalarProperty Name="rutTrabajador" ColumnName="rutTrabajador" />
+          <ScalarProperty Name="apv" ColumnName="apv" />
+          <ScalarProperty Name="porcientoDescuento" ColumnName="porcientoDescuento" />
+          <ScalarProperty Name="idAfp" ColumnName="idAfp" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="planesAfpPagados">
+      <EntityTypeMapping TypeName="RemuWebModelo.planesAfpPagados">
+        <MappingFragment StoreEntitySet="planesAfpPagados">
+          <ScalarProperty Name="idPeriodo" ColumnName="idPeriodo" />
+          <ScalarProperty Name="rutTrabajador" ColumnName="rutTrabajador" />
+          <ScalarProperty Name="apv" ColumnName="apv" />
+          <ScalarProperty Name="porcientoDescuento" ColumnName="porcientoDescuento" />
+          <ScalarProperty Name="tipoAfp" ColumnName="tipoAfp" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="planesSalud">
+      <EntityTypeMapping TypeName="RemuWebModelo.planesSalud">
+        <MappingFragment StoreEntitySet="planesSalud">
+          <ScalarProperty Name="rutTrabajador" ColumnName="rutTrabajador" />
+          <ScalarProperty Name="montoAdicional" ColumnName="montoAdicional" />
+          <ScalarProperty Name="porcientoDescuento" ColumnName="porcientoDescuento" />
+          <ScalarProperty Name="idSalud" ColumnName="idSalud" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="planesSaludPagados">
+      <EntityTypeMapping TypeName="RemuWebModelo.planesSaludPagados">
+        <MappingFragment StoreEntitySet="planesSaludPagados">
+          <ScalarProperty Name="idPeriodo" ColumnName="idPeriodo" />
+          <ScalarProperty Name="rutTrabajador" ColumnName="rutTrabajador" />
+          <ScalarProperty Name="montoAdicional" ColumnName="montoAdicional" />
+          <ScalarProperty Name="porcientoDescuento" ColumnName="porcientoDescuento" />
+          <ScalarProperty Name="tipoSalud" ColumnName="tipoSalud" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="salud">
+      <EntityTypeMapping TypeName="RemuWebModelo.salud">
+        <MappingFragment StoreEntitySet="salud">
+          <ScalarProperty Name="tipoSalud" ColumnName="tipoSalud" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="seguroCesantia">
+      <EntityTypeMapping TypeName="RemuWebModelo.seguroCesantia">
+        <MappingFragment StoreEntitySet="seguroCesantia">
+          <ScalarProperty Name="porcientoPago" ColumnName="porcientoPago" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="seguroCesantiaPagados">
+      <EntityTypeMapping TypeName="RemuWebModelo.seguroCesantiaPagados">
+        <MappingFragment StoreEntitySet="seguroCesantiaPagados">
+          <ScalarProperty Name="idPeriodo" ColumnName="idPeriodo" />
+          <ScalarProperty Name="rutTrabajador" ColumnName="rutTrabajador" />
+          <ScalarProperty Name="porcientoPago" ColumnName="porcientoPago" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sexo">
+      <EntityTypeMapping TypeName="RemuWebModelo.sexo">
+        <MappingFragment StoreEntitySet="sexo">
+          <ScalarProperty Name="sexo1" ColumnName="sexo" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sucursales">
+      <EntityTypeMapping TypeName="RemuWebModelo.sucursales">
+        <MappingFragment StoreEntitySet="sucursales">
+          <ScalarProperty Name="rutEmpleador" ColumnName="rutEmpleador" />
+          <ScalarProperty Name="sucursal" ColumnName="sucursal" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sueldosPagados">
+      <EntityTypeMapping TypeName="RemuWebModelo.sueldosPagados">
+        <MappingFragment StoreEntitySet="sueldosPagados">
+          <ScalarProperty Name="idPeriodo" ColumnName="idPeriodo" />
+          <ScalarProperty Name="rutTrabajador" ColumnName="rutTrabajador" />
+          <ScalarProperty Name="sueldo" ColumnName="sueldo" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tipoContrato">
+      <EntityTypeMapping TypeName="RemuWebModelo.tipoContrato">
+        <MappingFragment StoreEntitySet="tipoContrato">
+          <ScalarProperty Name="tipoContrato1" ColumnName="tipoContrato" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="topeDescuentos">
+      <EntityTypeMapping TypeName="RemuWebModelo.topeDescuentos">
+        <MappingFragment StoreEntitySet="topeDescuentos">
+          <ScalarProperty Name="tope" ColumnName="tope" />
+          <ScalarProperty Name="valorUf" ColumnName="valorUf" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="trabajadores">
+      <EntityTypeMapping TypeName="RemuWebModelo.trabajadores">
+        <MappingFragment StoreEntitySet="trabajadores">
+          <ScalarProperty Name="idEstadoTrabajador" ColumnName="idEstadoTrabajador" />
+          <ScalarProperty Name="idSucursal" ColumnName="idSucursal" />
+          <ScalarProperty Name="idModoPago" ColumnName="idModoPago" />
+          <ScalarProperty Name="idTipoContrato" ColumnName="idTipoContrato" />
+          <ScalarProperty Name="idDepartamento" ColumnName="idDepartamento" />
+          <ScalarProperty Name="idCargo" ColumnName="idCargo" />
+          <ScalarProperty Name="Sueldo" ColumnName="Sueldo" />
+          <ScalarProperty Name="idNacionalidad" ColumnName="idNacionalidad" />
+          <ScalarProperty Name="idSexo" ColumnName="idSexo" />
+          <ScalarProperty Name="fechaTermino" ColumnName="fechaTermino" />
+          <ScalarProperty Name="fechaIngreso" ColumnName="fechaIngreso" />
+          <ScalarProperty Name="fechaNacimiento" ColumnName="fechaNacimiento" />
+          <ScalarProperty Name="apellidoM" ColumnName="apellidoM" />
+          <ScalarProperty Name="apellidoP" ColumnName="apellidoP" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="rutTrabajador" ColumnName="rutTrabajador" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usuarios">
+      <EntityTypeMapping TypeName="RemuWebModelo.usuarios">
+        <MappingFragment StoreEntitySet="usuarios">
+          <ScalarProperty Name="tipoUsuario" ColumnName="tipoUsuario" />
+          <ScalarProperty Name="recuperacionContrasena" ColumnName="recuperacionContrasena" />
+          <ScalarProperty Name="contraseña" ColumnName="contraseña" />
+          <ScalarProperty Name="rutTrabajador" ColumnName="rutTrabajador" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vacaciones">
+      <EntityTypeMapping TypeName="RemuWebModelo.vacaciones">
+        <MappingFragment StoreEntitySet="vacaciones">
+          <ScalarProperty Name="rutTrabajador" ColumnName="rutTrabajador" />
+          <ScalarProperty Name="hasta" ColumnName="hasta" />
+          <ScalarProperty Name="desde" ColumnName="desde" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
